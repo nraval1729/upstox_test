@@ -5,6 +5,8 @@
 - `npm install`
 - `node index.js`
 
+**Note**: This application uses mLab as the MongoDB hosting provider. The url for the database is `mongodb://nisarg:nisarg@ds121299.mlab.com:21299/nraval1729test`, and the collection is named `test_customers`. If you only want to play around with this application you shouldn't have to change this. If, however, you'd like to connect to your own Mongo instance, just change the `MLAB_URL` and `dbName` in `repository.js` to your chosen values. Finally, since this is hosted on mLab free tier, please be gentle and try not to store *large* amounts of data. Default limit is up to `500 mb`.
+
 ----------
 
 
