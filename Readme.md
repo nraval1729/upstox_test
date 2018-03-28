@@ -1,9 +1,9 @@
-﻿	
+﻿  
 **Running the application**
-`git clone https://github.com/nraval1729/upstox_test.git`
-`cd upstox_test`
-`npm install`
-`node index.js`
+- `git clone`
+- `cd upstox_test`
+- `npm install`
+- `node index.js`
 
 ----------
 
@@ -22,16 +22,16 @@
 - *Type*: `GET`
 - *Request body*: `null`, there is no request body for this GET request
 - *Response body*: A customer JSON object, like so
-						 ` {
-						    "_id": "5ab8ee53809586ac52cdc1d5",
-						    "customer_id": 8,
-						    "email": "h@h.com",
-						    "referral_id": null,
-						    "payback": 40,
-						    "isAmbassador": true,
-						    "joiningDate" : ISODate("2018-03-28T07:56:44.571Z"),
-						    "lastUpdated": "2018-03-28T07:50:05.050Z"
-						  }`
+             ` {
+                "_id": "5ab8ee53809586ac52cdc1d5",
+                "customer_id": 8,
+                "email": "h@h.com",
+                "referral_id": null,
+                "payback": 40,
+                "isAmbassador": true,
+                "joiningDate" : ISODate("2018-03-28T07:56:44.571Z"),
+                "lastUpdated": "2018-03-28T07:50:05.050Z"
+              }`
 
 3) **/referral** - Add a referral under a customer
 - *Endpoint*: `/referral`
