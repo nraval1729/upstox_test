@@ -1,6 +1,6 @@
 ﻿  
 **Running the application**
-- `git clone`
+- `git clone https://github.com/nraval1729/upstox_test.git`
 - `cd upstox_test`
 - `npm install`
 - `node index.js`
